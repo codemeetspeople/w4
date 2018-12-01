@@ -7,6 +7,7 @@ public class Cat extends Animal implements Meowable {
         this("Cat");
     }
 
+    @Override
     public void eat() {
         System.out.println(this.name + " eats fish");
     }
